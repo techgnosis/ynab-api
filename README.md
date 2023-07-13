@@ -3,7 +3,9 @@ This repo has the shell and Python files I use to learn the YNAB (You Need A Bud
 
 
 ### .envrc
-You will see `.envrc` in the `.gitignore` file. `.envrc` is a file used by a tool called `direnv` to automatically create environment variables when you enter a specific folder. It makes it effortless to maintain different environments by storing each environment's specific information in environment variables. The real `.envrc` is not checked in as it contains sensitive information, however the file looks like this:
+You will see `.envrc` in the `.gitignore` file. `.envrc` is a file used by a tool called `direnv` to automatically create environment variables when you enter a specific folder. It makes it effortless to maintain different environments by storing each environment's specific information in a folder. 
+
+The real `.envrc` is not checked in as it contains sensitive information, however the file looks like this:
 
 ```
 export ACCESS_TOKEN=""

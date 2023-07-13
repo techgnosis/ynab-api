@@ -21,9 +21,9 @@ with open('transaction.json') as transaction_file:
     headers = {"Authorization": f"Bearer {access_token}"}
 
     response = requests.post(
-    url=f"https://api.youneedabudget.com/v1/budgets/{budget_id}/transactions",
-    headers=headers,
-    json=transaction
+        url=f"https://api.youneedabudget.com/v1/budgets/{budget_id}/transactions",
+        headers=headers,
+        json=transaction
     )
 
     print(response.text)
